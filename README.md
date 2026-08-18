@@ -9,18 +9,18 @@ Custom-TPC-Plugin/
 │
 ├── platform-policy.ini
 ├── platform-policy.xml
-├── MFTProcess.ini
-├── MFTPrompts.ini
-└── MFTScript.ps1
+├── SampleProcess.ini
+├── SamplePrompts.ini
+└── Script.ps1
 ```
 
 ## 1. Create Plugin Files
 
 Create/update:
 
-* `MFTProcess.ini`
-* `MFTPrompts.ini`
-* `MFTScript.ps1`
+* `SampleProcess.ini`
+* `SamplePrompts.ini`
+* `Script.ps1`
 
 Place them inside the `bin` folder.
 
@@ -39,8 +39,8 @@ PluginId=CustomTPCPowerShell
 Make sure the Process and Prompt files point to:
 
 ```ini
-ProcessFilename=MFTProcess.ini
-PromptsFilename=MFTPrompts.ini
+ProcessFilename=SampleProcess.ini
+PromptsFilename=SamplePrompts.ini
 ```
 
 ## 3. Create the ZIP
@@ -52,9 +52,9 @@ Custom-TPC-Plugin/
 │
 ├── platform-policy.ini
 ├── platform-policy.xml
-├── MFTProcess.ini
-├── MFTPrompts.ini
-└── MFTScript.ps1
+├── SampleProcess.ini
+├── SamplePrompts.ini
+└── Script.ps1
 ```
 
 Keep the folder structure intact.
@@ -80,9 +80,9 @@ rotation_<platform>_<version>
 │
 ├── platform-policy.ini
 ├── platform-policy.xml
-├── MFTProcess.ini
-├── MFTPrompts.ini
-└── MFTScript.ps1
+├── SampleProcess.ini
+├── SamplePrompts.ini
+└── Script.ps1
 ```
 
 ## 6. Test
